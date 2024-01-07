@@ -1,6 +1,6 @@
 const express = require("express");
 const multer = require("multer");
-const { Configuration, OpenAIApi } = require("openai");
+const { default: Configuration, OpenAIApi } = require("openai");
 
 const router = express.Router();
 const upload = multer();
